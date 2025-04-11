@@ -1,0 +1,26 @@
+User-Agent: *
+Disallow: /page64079523.html
+Disallow: /test
+Disallow: /page64045463.html
+Disallow: /header
+Disallow: /page64045403.html
+Disallow: /page64075555.html
+Disallow: /imagedump
+Disallow: /page64974313.html
+Disallow: /error404
+Disallow: /page64979147.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: http://domaai.tilda.ws/sitemap.xml
+Sitemap: http://domaai.tilda.ws/sitemap-feeds.xml
+Host: domaai.tilda.ws

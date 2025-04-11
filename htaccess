@@ -1,0 +1,29 @@
+ErrorDocument 403 /page64974313.html
+ErrorDocument 404 /page64974313.html
+
+DirectoryIndex page64046109.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^policy$ page64929921.html [NC]
+RewriteRule ^policy/$ page64929921.html [NC]
+
+RewriteRule ^test$ page64079523.html [NC]
+RewriteRule ^test/$ page64079523.html [NC]
+
+RewriteRule ^header$ page64045463.html [NC]
+RewriteRule ^header/$ page64045463.html [NC]
+
+RewriteRule ^imagedump$ page64075555.html [NC]
+RewriteRule ^imagedump/$ page64075555.html [NC]
+
+RewriteRule ^error404$ page64974313.html [NC]
+RewriteRule ^error404/$ page64974313.html [NC]
+
+RewriteRule ^services$ page65740159.html [NC]
+RewriteRule ^services/$ page65740159.html [NC]
+
+
